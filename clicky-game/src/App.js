@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Score from "./components/Score";
-import pups from "./cards.json";
+import cats from "./cards.json";
 import './App.css';
 
 class App extends Component {
-  // Setting this.state.pups to the cards json array
+  // Setting this.state.cats to the cards json array
   state = {
-    pups,
-    clickedPuppyIds: [],
+    cats,
+    clickedCatIds: [],
     score: 0,
     goal: 8,
     status: ""
@@ -17,25 +17,25 @@ class App extends Component {
 
   //shuffle the pup cards in the browser when clicked
   shuffleScoreCard = id => {
-    let clickedPuppyIds = this.state.clickedPuppyIds;
+    let clickedCatIds = this.state.clickedCatIds;
 
-    if(clickedPuppyIds.includes(id)){
-      this.setState({ clickedPuppyIds: [], score: 0, status:  "Game Over! You lost. Click to play again!" });
+    if(clickedCatIds.includes(id)){
+      this.setState({ clickedCatIds: [], score: 0, status:  "Game Over! You lost. Click to play again!" });
       return;
     }else{
-      clickedPuppyIds.push(id)
+      clickedCatIds.push(id)
 
-      if(clickedPuppyIds.length === 8){
-        this.setState({score: 8, status: "You Won! Great Job, Smartie! Click to play again!", clickedPuppyIds: []});
+      if(clickedCatIds.length === 8){
+        this.setState({score: 8, status: "You Won! Great Job! Click to play again!", clickedCatIds: []});
         console.log('You Win');
         return;
       }
 
-      this.setState({ pups, clickedPuppyIds, score: clickedPuppyIds.length, status: " " });
+      this.setState({ cats, clickedCatIds, score: clickedCatIds.length, status: " " });
 
-      for (let i = pups.length - 1; i > 0; i--) {
+      for (let i = cats.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
-        [pups[i], pups[j]] = [pups[j], pups[i]];
+        [cats[i], cats[j]] = [cats[j], cats[i]];
       }
     }
   }
@@ -55,12 +55,12 @@ class App extends Component {
                status={this.state.status}
                />
         <Wrapper>
-          {this.state.pups.map(puppy => (
+          {this.state.cats.map(kitty => (
             <Card
               shuffleScoreCard={this.shuffleScoreCard}
-              id={puppy.id}
-              key={puppy.id}
-              image={puppy.image}
+              id={kitty.id}
+              key={kitty.id}
+              image={kitty.image}
             />
           ))}
         </Wrapper>

@@ -1,19 +1,17 @@
 [{
     "id": 1,
-    "image": "https://images.pexels.com/photos/162321/dog-puppy-yorkshire-terrier-yorkshire-terrier-puppy-162321.jpeg?h=350&auto=compress&cs=tinysrgb"
+    "image": "Clicky-Game/clicky-game/src/images/catphoto1.jpg"
   },
   {
     "id": 2,
-    "image": "https://images.pexels.com/photos/247937/pexels-photo-247937.jpeg?h=350&auto=compress&cs=tinysrgb"
+    "image": "catphoto2.jpeg"
   },
   {
     "id": 3,
-
-    "image": "https://images.pexels.com/photos/59988/dog-puppy-animal-portrait-small-dog-59988.jpeg?h=350&auto=compress&cs=tinysrgb"
-  },
+    "image": "/images/catphoto3.jpg" },
   {
     "id": 4,
-    "image": "https://images.pexels.com/photos/133196/pexels-photo-133196.jpeg?h=350&auto=compress&cs=tinysrgb"
+    "image": "https://drive.google.com/open?id=1FYU2lS4h-mLKoS6quLhii4wVvbM7bzv9"
   },
   {
     "id": 5,
