@@ -45,9 +45,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">The Clickster</h1>
+          <h1 className="App-title">Clicky Cats</h1>
           <p className="App-intro">
-            Try not to click the same image twice!
+            Try not to click the same image twice! Click all the images ONLY once and you win!
           </p>
         </header>
         <Score total={this.state.score}

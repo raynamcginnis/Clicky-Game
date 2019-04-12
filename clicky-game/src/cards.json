@@ -1,35 +1,36 @@
 [{
     "id": 1,
-    "image": "Clicky-Game/clicky-game/src/images/catphoto1.jpg"
+    "image": "catphoto1.jpg"
   },
   {
     "id": 2,
-    "image": "catphoto2.jpeg"
+    "image": "catphoto2.jpg"
   },
   {
     "id": 3,
-    "image": "/images/catphoto3.jpg" },
+    "image": "catphoto3.jpg"
+  },
   {
     "id": 4,
-    "image": "https://drive.google.com/open?id=1FYU2lS4h-mLKoS6quLhii4wVvbM7bzv9"
+    "image": "catphoto4.jpg"
   },
   {
     "id": 5,
-    "image": "https://images.pexels.com/photos/169524/pexels-photo-169524.jpeg?h=350&auto=compress&cs=tinysrgb"
+    "image": "catphoto5.jpg"
   },
   {
     "id": 6,
-    "image": "https://images.pexels.com/photos/162123/dog-cavalier-king-charles-spaniel-funny-pet-162123.jpeg?h=350&auto=compress&cs=tinysrgb"
+    "image": "catphoto6.jpg"
 
   },
   {
     "id": 7,
-    "image": "https://images.pexels.com/photos/69433/pexels-photo-69433.jpeg?h=350&auto=compress&cs=tinysrgb"
+    "image": "catphoto7.jpg"
 
   },
   {
     "id": 8,
-    "image": "https://images.pexels.com/photos/434046/pexels-photo-434046.jpeg?h=350&auto=compress&cs=tinysrgb"
+    "image": "catphoto8.jpg"
 
   }
 ]
