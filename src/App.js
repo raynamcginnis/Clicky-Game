@@ -65,7 +65,7 @@ class App extends Component {
           ))}
         </Wrapper>
         <footer>
-          <p> © Rayna McGinnis |<a href="https://raynamcginnis.github.io/Clicky-Game/" target="_blank" rel="noopener noreferrer"> View on Github</a>.</p>
+          <p> © Rayna McGinnis |<a href="https://github.com/raynamcginnis/Clicky-Game" target="_blank" rel="noopener noreferrer"> View on Github</a>.</p>
         </footer>
     </div>
     );
