@@ -1,4 +1,4 @@
-#Cat Themed Memory Clicky Game
+# Cat Themed Memory Clicky Game
 Try to click every cat picture only once! If you click it twice, you lose.
 
 # How To Play
@@ -8,11 +8,11 @@ Try to click every cat picture only once! If you click it twice, you lose.
 4. Repeat step 3 until you click on all of the cat photos only once. 
 5. For every cat photo you click on ONCE, you get one point. If you click on a cat photo you've already clicked on, the game ends. 
 
-#Technologies Used:
+# Technologies Used:
 
 - React
 - GitHub
 - Javascript/Bootstrap
 - HTML/CSS
 
-Demo Video: 
+# Demo Video: 
