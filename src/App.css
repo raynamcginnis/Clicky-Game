@@ -1,18 +1,10 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
 
 .App-header {
-  /* background-color: blue; */
-  /* background-image: url("/Clicky-Game/src/images/catheader.jpg"); */
-
-  min-height: 100vh;
+   background:  url("./images/catheader.jpg");
+  background-size:cover;
+min-height: 100vh;
+ width: 100%;
+max-height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,15 +13,22 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-title {
+font-family: 'Shadows Into Light', cursive;
+font-size: 60px;
+font-weight: 800;
+color: black;
+padding-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-intro {
+  color: black;
+  text-align: center;
+
+}
+
+footer {
+  padding-top: 15px;
+  text-align: center;
+  font-weight: 600;
 }

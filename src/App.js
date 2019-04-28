@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Score from "./components/Score";
-import cats from "./cards.json";
+import {cats} from "./cards.js";
 import './App.css';
 
 class App extends Component {
@@ -47,7 +47,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Clicky Cats</h1>
           <p className="App-intro">
-            Try not to click the same image twice! Click all the images ONLY once and you win!
+            Try not to click the same image twice! <br></br>Click all the images ONLY once and you win!
           </p>
         </header>
         <Score total={this.state.score}
@@ -57,12 +57,12 @@ class App extends Component {
         <Wrapper>
           {this.state.cats.map(kitty => (
             <Card
-              shuffleScoreCard={this.shuffleScoreCard}
-              id={kitty.id}
-              key={kitty.id}
-              image={kitty.image}
+            shuffleScoreCard={this.shuffleScoreCard}
+            id={kitty.id}
+            key={kitty.id}
+            image={kitty.image}
             />
-          ))}
+            ))}
         </Wrapper>
         <footer>
           <p> © Rayna McGinnis |<a href="https://github.com/raynamcginnis/Clicky-Game" target="_blank" rel="noopener noreferrer"> View on Github</a>.</p>
