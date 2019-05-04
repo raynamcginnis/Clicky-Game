@@ -9,11 +9,7 @@ Try to click every cat picture only once! If you click it twice, you lose.
 5. For every cat photo you click on ONCE, you get one point. If you click on a cat photo you've already clicked on, the game ends. 
 
 # Technologies Used:
-
 - React
 - GitHub
 - Javascript/Bootstrap
 - HTML/CSS
-
-# Demo Video: 
-- https://drive.google.com/file/d/195HJysRqXqgQg1jeG7HRPxZ8OvZ5WY4K/view
