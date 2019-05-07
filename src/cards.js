@@ -1,7 +1,7 @@
 
 export const cats = [{
     "id": 1,
-    "image": 'catphoto1.jpg'
+    "image": '../../images/catphoto1.jpg'
   },
   {
     "id": 2,
