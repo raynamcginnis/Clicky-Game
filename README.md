@@ -2,7 +2,7 @@
 Try to click every cat picture only once! If you click it twice, you lose.
 
 # How To Play
-1. Go to: https://raynamcginnis.github.io/Clicky-Game/
+1. Go to: https://clicky-cats.herokuapp.com/
 2. Click on any cat photo. Once you click on the photo, all of the photos will shuffle themselves. 
 3. Click on a cat photo that you have NOT already clicked on.
 4. Repeat step 3 until you click on all of the cat photos only once. 
